@@ -13,6 +13,7 @@ echo "Waiting for mongod's to start"
 sleep 3
 
 mongo shardsetup.js
+#wget https://www.dropbox.com/s/ykghlxuih28tjvb/enron.tar
 wget https://education.10gen.com/static/m101j-may-2013/handouts/enron.1febe86d6d2e.tar
 mv enron.1febe86d6d2e.tar enron.tar
 tar xf enron.tar
